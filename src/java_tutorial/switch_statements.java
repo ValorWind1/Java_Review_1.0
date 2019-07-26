@@ -1,14 +1,12 @@
 package java_tutorial;
 
-import java.sql.SQLOutput;
-
 public class switch_statements {
 
     public static void main(String[] args) {
 
         // switch statement = tests 1 variable , and depending on the variable it gives us choices
         int age;
-        age = 5;
+        age = 7;
 
 
         switch(age){
@@ -23,8 +21,8 @@ public class switch_statements {
                 System.out.println("you can get in trouble");
                 break;
 
-        default:
-            System.out.println("I dont know your age");
+        default: // every switch statement has DEFAULT , in case all values were False.
+            System.out.println("I don't know your age");
         break;
 
         }

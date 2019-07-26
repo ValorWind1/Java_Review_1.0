@@ -10,7 +10,7 @@ public class random_number_generator {
 
         for (int counter = 1; counter <= 10; counter++) {
             number = 1+rd.nextInt(6); // inside parenthesis we write how many options we want it to have for random gen
-
+                // 1+ makes so it starts at 1, otherwise it will start at 0
             System.out.println("number :"+ number);
         }
     }
