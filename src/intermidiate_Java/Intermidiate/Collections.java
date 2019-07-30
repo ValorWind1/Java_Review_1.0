@@ -1,4 +1,4 @@
-package intermidiate_Java;
+package intermidiate_Java.Intermidiate;
 import java.util.*;
 
 public class Collections {

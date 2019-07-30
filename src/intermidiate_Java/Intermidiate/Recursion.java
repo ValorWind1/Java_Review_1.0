@@ -1,4 +1,4 @@
-package intermidiate_Java;
+package intermidiate_Java.Intermidiate;
 
 public class Recursion {
     public static void main (String args []){
