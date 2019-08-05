@@ -10,10 +10,12 @@ public class tuna {
     }
 
     public String getName(){
+
         return girlName;
     }
 
     public void saying(){
-        System.out.printf("yourt first gf was %s",getName());
+
+        System.out.printf("your first gf was %s",getName());
     }
 }
