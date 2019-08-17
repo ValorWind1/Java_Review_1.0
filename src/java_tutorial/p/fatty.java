@@ -1,4 +1,4 @@
-package java_tutorial.Polymorphism;
+package java_tutorial.p;
 
 public class fatty {
 
