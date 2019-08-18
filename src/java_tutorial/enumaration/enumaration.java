@@ -1,6 +1,6 @@
 package java_tutorial.enumaration;
 
-public enum enumaration {      // enumerations : constants that are also objects
+public enum enumaration {      // enumerations : Constants that are also objects
 
     bucky("nice","22"),
     kelsey("cutie","10"),
