@@ -5,12 +5,12 @@ public class ex {
 
 //        // polymorphic array
 //
-//        superClass array1[]= new superClass[2];
-//        array1[0] = new subClass();
-//        array1[1]=new subClass1();
+//        superClass Array1[]= new superClass[2];
+//        Array1[0] = new subClass();
+//        Array1[1]=new subClass1();
 //
 //        for (int x=0;x<2;++x){
-//            array1[x].eat();
+//            Array1[x].eat();
 
 
 
