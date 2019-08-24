@@ -8,19 +8,29 @@ public class assertions1 {
     public static void main(String[] args) {
 
         int [] array1 = {2,3,4,5};
-        System.out.println(sumArray(array1));
+//        System.out.println(sumArray(array1));
+
+
+        example2(3);
 
     }
 
-    public static int sumArray(int [] n){
-//        assert n.length>0;
+//    public static int sumArray(int [] n){
+////        assert n.length>0;
+//
+//        assert n.length>0 && n[0] > 1 ;
+//
+//        int total = 0 ;
+//        for(int i = 0 ; i < n.length;i++){
+//            total += n[i];
+//        }
+//        return total;
+//    }
 
-        assert n.length>0 && n[0] > 1 ;
+    public static int example2 ( int n){
 
-        int total = 0 ;
-        for(int i = 0 ; i < n.length;i++){
-            total += n[i];
-        }
-        return total;
+
+        assert n < 10:"not valid";
+        return n;
     }
 }
