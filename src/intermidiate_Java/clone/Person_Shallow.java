@@ -5,13 +5,11 @@ package intermidiate_Java.clone;
 class CloningDemo implements Cloneable{
 
     int num;
-
     String player;
 
     CloningDemo(int n,String player){
 
         this.num=n;
-
         this.player=player;
 
     }
@@ -25,9 +23,7 @@ class CloningDemo implements Cloneable{
 
             CloningDemo realMadrid=new CloningDemo(7,"Cristiano Ronaldo");
             CloningDemo juventus=(CloningDemo)realMadrid.clone();
-
             System.out.println(realMadrid.num+" "+realMadrid.player);
-
             System.out.println(juventus.num+" "+juventus.player);
 
         }catch(CloneNotSupportedException c){}
