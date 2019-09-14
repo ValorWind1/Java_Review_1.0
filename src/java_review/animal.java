@@ -27,7 +27,7 @@ public class animal {           // Public means everyone can access it
     static Scanner userInput = new Scanner(System.in);  // System.in = receives data from the keyboard
 
     public animal(){          // every time an animal object is created we need a cosntructor
-        // super();             // inheritance every field , and method in animal will be available for subclasses dog and cat
+        // super();             // Ex every field , and method in animal will be available for subclasses dog and cat
 
         numberOfAnimals++; // ++ increase by one
 

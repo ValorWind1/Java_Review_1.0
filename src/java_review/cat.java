@@ -1,6 +1,6 @@
 package java_review;
 
-public class cat extends animal {  //inheritance every field , and method in animal will be available for subclasses dog and cat
+public class cat extends animal {  //Ex every field , and method in animal will be available for subclasses dog and cat
 
     public cat(){
 
