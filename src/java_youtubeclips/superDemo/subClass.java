@@ -3,7 +3,7 @@ package java_youtubeclips.superDemo;
 public class subClass extends FirstClass{
 
     public void dummyMethod(){
-        super.dummyMethod();
+//        super.dummyMethod();
         System.out.println("dummy");
 
 
