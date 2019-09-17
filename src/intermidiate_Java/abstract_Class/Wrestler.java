@@ -1,4 +1,6 @@
 package intermidiate_Java.abstract_Class;
+
+
 /**
  *
  * Also a contract like an interface
@@ -13,6 +15,7 @@ public abstract class Wrestler {
     public void paymentForWork(int hours){
         System.out.println("The Wrestle Will Make $ "+ hours*250.000+" for tonight's match");
 
+        
     }
 
     public abstract void themeMusic();
