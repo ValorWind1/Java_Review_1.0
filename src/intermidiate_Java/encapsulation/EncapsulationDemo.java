@@ -12,18 +12,22 @@ public class EncapsulationDemo {
 // Getter, and setter methods that will access our private variables.
 
     public Integer getMoneyOwed() {
+
         return moneyOwed;
     }
 
     public void setTotal(Integer moneyOwed) {
+
         this.moneyOwed = moneyOwed;
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 }
